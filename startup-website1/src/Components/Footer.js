@@ -12,15 +12,18 @@ import All from '../Collections/ALL.png';
 
 const Footer = () => {
   return ( 
-    <div>
-<img src={Book} alt="" />
-    <img src={Instagram} alt="" />
-    <img src={Twitter} alt="" />
-    <img src={PII} alt="" />
-    <img src={Social} alt="" /> 
-    <img src={Whats} alt="" />
-    <img src={Youtube} alt="" />
-   < img src={All} alt="" />
+    <div className="footer-container">
+      <div className="footer-content">
+       <img src={Book} alt="" />
+       <img src={Instagram} alt="" />
+       <img src={Twitter} alt="" />
+       <img src={PII} alt="" />
+       <img src={Social} alt="" /> 
+       <img src={Whats} alt="" />
+       <img src={Youtube} alt="" />
+       <img src={All} alt="" />
+      </div>
+
     
     </div>
     

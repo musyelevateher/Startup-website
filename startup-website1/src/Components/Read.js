@@ -7,9 +7,9 @@ const Read = () => {
     <div>
       <img src={reader} alt="Reader Icon" className="reader-icon" />
       
-      <h2>Lorem ipsum dolor sit amet consectetur </h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-      <button>Learn More</button>
+      <h2 className="sit">Lorem ipsum dolor sit amet consectetur </h2>
+      <p className="dolor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+      <button className="learn">Learn More</button>
     </div>
   );
 };

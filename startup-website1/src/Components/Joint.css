@@ -1,0 +1,53 @@
+.joint { 
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.par {
+  font-family: Work sans;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 5px;
+  align-items: center;
+  color: #74C69D;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 12px;
+}
+.rem {
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 0;
+ }
+ .sum {
+  font-family: Work Sans;
+  font-size: 28px;
+  line-height: 1;
+  margin-top: 3px;
+}
+.center-line {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.joint-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  gap: 24px;
+}
+
+.joint button.more {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+}
