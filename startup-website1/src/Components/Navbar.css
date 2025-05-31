@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color:#74C69D;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.vec {
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  
+}
+.begin {
+  transform: translateX(-760%);
+  color: #fff;
+  font-family: work sans, sans-serif;
+}
+.bur {
+  color: red;
+  position: absolute;
+  margin-left: 390px;
+}
