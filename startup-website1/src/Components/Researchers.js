@@ -6,6 +6,7 @@ import stola from '../Collections/stola.svg';
 import bray from '../Collections/bray.svg';
 const Researchers = () => {
   return ( 
+    <div> 
 <div className="researchers-container">
   
 <div className="researcher-box">
@@ -28,10 +29,11 @@ const Researchers = () => {
   <h4 className="peg">Janet Bray</h4>
   <h6 className="prof">DEVELOPER</h6>
 </div>
-<button className="learn">Learn More</button>
+ {/* <button className="learn">Learn More</button> */}
 </div>
+<button className='learn'>View Team</button>
         
-          
+</div>     
         
     
 

@@ -5,11 +5,14 @@ import reader from '../Collections/reader.svg';
 const Read = () => {
   return (
     <div>
+      <div className="read-container"> 
       <img src={reader} alt="Reader Icon" className="reader-icon" />
-      
+       <div className="read-content"> 
       <h2 className="sit">Lorem ipsum dolor sit amet consectetur </h2>
       <p className="dolor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
       <button className="learn">Learn More</button>
+       </div>
+      </div>
     </div>
   );
 };

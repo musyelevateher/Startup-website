@@ -21,8 +21,10 @@ const Footer = () => {
        <img src={Social} alt="" /> 
        <img src={Whats} alt="" />
        <img src={Youtube} alt="" />
-       <img src={All} alt="" />
-      </div>
+       </div>
+       <div className='footer-text'>
+        <img src={All} alt="" />
+       </div>
 
     
     </div>

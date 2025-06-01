@@ -38,3 +38,35 @@ button {
   font-weight: 200;
   font-size: 27px;
 }
+@media (min-width: 1024px) {
+  .hero {
+    flex-direction: row-reverse;
+    padding: 40px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    
+     /* space between image and text */
+  }
+  .hero-image {
+    max-width: 500px;
+    width: 50%;
+
+  }
+  .we,
+  .lo,
+  .ip,
+  button {
+    align-self: flex-start;
+    text-align: left;
+    margin-top: 0;
+  }
+  /* Optional: group text content for better alignment */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    width: 50%;
+  }
+}

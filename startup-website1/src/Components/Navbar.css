@@ -12,11 +12,6 @@ body {
   position: relative;
 }
 
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
 
 .nav-links {
   display: flex;
@@ -57,19 +52,30 @@ body {
   .hamburger {
     display: block;
   }
+
+}
+@media (min-width: 769px) {
+  .logo-section {
+    margin-left: 100px;
+  }
+}
+ 
+
+.logo-section {
+display: flex;
+ align-items: center;
+gap: 8px;
+ margin-left: 100px;
 }
 .vec {
-  width: 20px;
-  height: 20px;
-  margin-left: -10px;
+width: 20px;
+height: 20px;
+  
   
 }
 .begin {
   color: #fff;
   font-family: Work sans;
 }
-.bur {
-  color: red;
-  position: absolute;
-  margin-left: 390px;
-}
+
+

@@ -12,17 +12,16 @@ const Joint = () => {
     <div className="joint">
       <h1 className="par">PARTNERS</h1>
       <h3 className="rem">Lorem Ipsum Dolor</h3>
-      <p className="sum">Lorem ipsum, dolor sit amet<br /> <span className="center-line">consectetur</span><br />
-<span className="center-line">adipisicing elit.</span></p>
-<div className="joint-images">
-<img src={google}alt="" />
-<img src={microsoft} alt="" />
-<img src={air}alt="" />
-<img src={facebook}alt="" />
-<img src={spot} alt="" />
-<button className="more">Learn More</button>
-</div>
-
+      <p className="sum">Lorem ipsum, dolor sit amet consectetur<br /><span className='center-line'>
+adipisicing elit.</span></p>
+      <div className="joint-images">
+        <img src={google} alt="" />
+        <img src={microsoft} alt="" />
+        <img src={air} alt="" />
+        <img src={facebook} alt="" />
+        <img src={spot} alt="" />
+      </div>
+      <button className="more">Learn More</button>
     </div>
   );
 };

@@ -1,11 +1,12 @@
 .footer-container {
   background-color: #74C69D;
-  gap: 20px;
+  gap: 500px;
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 .footer-content {
   display: flex;
@@ -13,5 +14,10 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 24px;
+  margin-bottom: 0;
+}
+.footer-text {
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -7,8 +7,8 @@ import Portfolio from './Pages/Portfolio';
 function App() {
   return (
     <div>
-      {/* <Home /> */}
-      <Portfolio />
+      <Home /> 
+      {/* <Portfolio /> */}
     </div>
   );
 }
