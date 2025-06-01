@@ -1,3 +1,4 @@
+/* Mobile-first styles */
 .portfolio-contents { 
   display: flex;
   flex-direction: column;
@@ -29,12 +30,12 @@
   width: 100%; 
 }
  .portfolio-images {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.5;
-  gap: 24px; 
-} 
+  display: grid;
+  grid-template-columns: 1fr; /* One column by default (mobile) */
+  gap: 24px;
+  justify-items: center;
+  margin-bottom: 24px;
+}
 .more {
   color: white;
   background-color: black;
@@ -44,4 +45,25 @@
   font-size: 16px;
   justify-content: center;
   align-self: center;
+}
+/* Desktop styles */
+@media (min-width: 1024px) {
+  
+  .portfolio-heading {
+    font-size: 32px;
+  }
+  .sum {
+    font-size: 10px;
+  }
+  .portfolio {
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+ .portfolio-images {
+    grid-template-columns: 1fr 1fr; /* Two columns on desktop */
+    gap: 40px;
+  }
+  .portfolio-images img {
+    width: 300px; /* Adjust as needed */
+}
 }
