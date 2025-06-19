@@ -27,8 +27,8 @@ This project is built using React.It provides a visually appealing,responsive la
 - A "Footer.js" with additional links and information.
 
 ## Live-demo
-- Check out the live Demo of the project: [Live Demo] 
--  A live video using loom: link to loom https://www.loom.com/share/19f7d74d31f4445083894aca4c1e24c3?sid=6114b588-4c56-4cf3-93ab-f3ba2c83ce32
+- Check out the live Demo of the project: [Live Demo](https://startup-website-r1tt.onrender.com)
+-  A live video using loom: link to loom (https://www.loom.com/share/19f7d74d31f4445083894aca4c1e24c3?sid=6114b588-4c56-4cf3-93ab-f3ba2c83ce32)
 
 ## Technologies Used
 
@@ -76,3 +76,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email:** musayyiba@gmail.com
 - **GitHub:** [musyelevateher](https://github.com/musyelevateher)
 
+
+
+[def]: https://startup-website-r1tt.onrender.com
+[def2]: https://

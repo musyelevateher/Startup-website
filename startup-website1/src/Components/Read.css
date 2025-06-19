@@ -31,7 +31,7 @@ color: #6c757d;
   padding: 10px 30px;
   font-size: 16px;
 }
-/* Desktop: side by side */
+
 @media (min-width: 1024px) {
   .read-container {
     flex-direction: row-reverse;
