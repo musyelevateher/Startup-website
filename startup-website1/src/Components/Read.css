@@ -1,0 +1,52 @@
+.read-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 24px;
+}
+.read-content {
+  width: 350px;
+}
+.reader-icon {
+  display: block;
+  margin-top: 50px;
+  width: 90%;
+  height: auto;
+}
+.sit{
+  font-family: crimson;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+}
+.dolor {
+font-family: work-sans;
+font-size: 27px;
+line-height: 150%;
+color: #6c757d;
+}
+.learn {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .read-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .reader-icon {
+    width: 520px; 
+    height: auto;  
+  }
+   .read-content {
+    text-align: left;
+    max-width: 500px;
+  } 
+}
