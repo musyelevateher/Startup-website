@@ -7,7 +7,7 @@ import bray from '../Collections/bray.svg';
 const Researchers = () => {
   return ( 
     <div> 
-      <div className="research-parent">
+      <div className="researchers-container">
         <div className="researcher-box">
           <img src={peg} alt="" />
           <h4 className="peg">Peg Legge</h4>
