@@ -4,11 +4,13 @@
   align-items: center;
   gap: 24px;
 }
-
+.read-content {
+  width: 350px;
+}
 .reader-icon {
   display: block;
   margin-top: 50px;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 .sit{

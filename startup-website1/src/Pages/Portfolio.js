@@ -21,10 +21,11 @@ const Portfolio = () => {
     <div className='portfolio-contents'>
       <h1 className='portfolio-heading'>WORKS</h1>
       <h2 className="portfolio">Portfolio</h2>
-      <p className="sum">Lorem ipsum, dolor sit amet consectetur<br /><span className='center-line'>
-adipisicing elit.</span></p>
+     <p className="lo">Lorem ipsum, dolor sit amet <br /> <span className="center-word"></span>consectetur  <br />  adipisicing elit </p>
      {/* <p className="sum">Lorem ipsum, dolor sit amet<br /> <span className="center-line">consectetur</span><br />
 <span className="center-line">adipisicing elit.</span></p> */}
+
+
       
 <div className="portfolio-images">
   {/*<img src={Folio} alt="" /> */}

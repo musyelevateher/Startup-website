@@ -1,32 +1,32 @@
-.team-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-   padding: 20px;
+.team-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 20px;
 }
 .tea {
-  font-family: Work Sans;
-  font-weight: 700;
-  font-size: 24px;
-   color:#74C69D; 
+font-family: Work Sans;
+font-weight: 700;
+font-size: 24px;
+color:#74C69D; 
 }
 .work {
-  font-family: Work Sans;
-  font-size: 30px;
-  line-height: 1.4;
-  margin-top: 3px;
+font-family: Work Sans;
+font-size: 30px;
+line-height: 1.4;
+margin-top: 3px;
 }
 .block {
-  display: block;
-  text-align: center;
-  width: 100%;
+display: block;
+text-align: center;
+width: 100%;
 }
 .talents { 
 font-family: Crimson Text;
-  font-weight: 700;
-  font-size: 27px;
-  margin-top: 0;
-  }
+font-weight: 700;
+font-size: 27px;
+margin-top: 0;
+}
   

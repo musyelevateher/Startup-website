@@ -4,10 +4,13 @@ flex-direction: column;
 align-items: center;
 gap: 24px;
 }
+.chat-content {
+  width: 350px;
+}
 .chat-icon {
 display: block;
 margin: 0 auto;
-width: 100%;
+width: 80%;
 height: auto;
 }
 .sit{

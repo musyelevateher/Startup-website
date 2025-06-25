@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Navbar.css';
 import Vector from '../Collections/rainbow.png';
 import Burger from '../Collections/harmburger(2).svg';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,10 +14,12 @@ const Navbar = () => {
         <h1 className="begin">Start</h1>
       </div>
       <div className={`nav-links ${open ? "open" : ""}`}>
-        <a href="#">HOME</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">SERVICES</a>
-        <a href="#">CONTACT</a>
+        <ul>
+          <li><Link to = "/">HOME</Link></li>
+          <li><Link to = "/portfolio">PORTFOLIO</Link></li>
+          <li><Link to = "/service">SERVICE</Link></li>
+          <li><Link to ="/contact">CONTACT</Link></li>
+        </ul>
       </div>
       <img 
         src={Burger} 
